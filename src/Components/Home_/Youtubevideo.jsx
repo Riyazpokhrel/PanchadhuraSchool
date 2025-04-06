@@ -35,7 +35,7 @@ const VideoPlayer = () => {
           controls
           className="w-full h-full md:h-96 lg:h-[680px] rounded shadow-lg"
         >
-          <source src="src/assets/nature.mp4" type="video/mp4" />
+          <source src="public/nature.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

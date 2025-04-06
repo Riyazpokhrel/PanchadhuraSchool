@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 
 const ImageSlider = () => {
   const images = [
-    "src/assets/tour.jpg",
-    "src/assets/program.jpg",
-    "src/assets/mainimage.jpg",
-    "src/assets/teachers.jpg",
-    "src/assets/foodfestivals.jpg",
+    "public/tour.jpg",
+    "public/program.jpg",
+    "public/mainimage.jpg",
+    "public/teachers.jpg",
+    "public/foodfestivals.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -16,7 +16,7 @@ const ImageSlider = () => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 6000); // Increased interval to 6 seconds for smoother experience
+    }, 4000); // Increased interval to 6 seconds for smoother experience
 
     return () => clearInterval(interval); // Cleanup on component unmount
   }, [images.length]);

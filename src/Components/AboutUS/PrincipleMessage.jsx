@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Navbar from "../Home_/Navbar";
+import Footer from "../Home_/Footer";
 
 const PrincipleMessage = () => {
   // Animation controls
@@ -79,7 +80,7 @@ const PrincipleMessage = () => {
                   animate={{ scale: 1 }}
                   transition={{ duration: 0.5 }}
                   className="h-80 w-full object-cover md:w-80 md:h-full"
-                  src="src/assets/Rameshpokhrel.jpg"
+                  src="public/Rameshpokhrel.jpg"
                   alt="Principal"
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent">
@@ -177,133 +178,10 @@ const PrincipleMessage = () => {
             className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3"
           >
             {/* Vision Card */}
-            <motion.div
-              variants={itemVariants}
-              whileHover={{ y: -5 }}
-              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-indigo-500"
-            >
-              <div className="flex items-center mb-4">
-                <div className="p-3 rounded-full bg-indigo-100 text-indigo-600">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="ml-3 text-lg font-bold text-gray-900">
-                  Our Vision
-                </h3>
-              </div>
-              <p className="text-gray-600">
-                To pioneer an educational renaissance where boundaries dissolve
-                between disciplines, creating leaders who will shape a
-                sustainable and equitable future.
-              </p>
-            </motion.div>
-
-            {/* Mission Card */}
-            <motion.div
-              variants={itemVariants}
-              whileHover={{ y: -5 }}
-              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-purple-500"
-            >
-              <div className="flex items-center mb-4">
-                <div className="p-3 rounded-full bg-purple-100 text-purple-600">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
-                    />
-                  </svg>
-                </div>
-                <h3 className="ml-3 text-lg font-bold text-gray-900">
-                  Our Mission
-                </h3>
-              </div>
-              <p className="text-gray-600">
-                To cultivate intellectual curiosity through transformative
-                learning experiences, groundbreaking research, and meaningful
-                community partnerships that transcend borders.
-              </p>
-            </motion.div>
-
-            {/* Values Card */}
-            <motion.div
-              variants={itemVariants}
-              whileHover={{ y: -5 }}
-              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-blue-500"
-            >
-              <div className="flex items-center mb-4">
-                <div className="p-3 rounded-full bg-blue-100 text-blue-600">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="ml-3 text-lg font-bold text-gray-900">
-                  Core Values
-                </h3>
-              </div>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start">
-                  <span className="flex items-center justify-center h-5 w-5 bg-indigo-100 text-indigo-800 rounded-full mr-3 mt-0.5">
-                    ✓
-                  </span>
-                  <span>
-                    <strong className="text-indigo-700">Integrity:</strong>{" "}
-                    Uncompromising ethical standards
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="flex items-center justify-center h-5 w-5 bg-purple-100 text-purple-800 rounded-full mr-3 mt-0.5">
-                    ✓
-                  </span>
-                  <span>
-                    <strong className="text-purple-700">Innovation:</strong>{" "}
-                    Fearless pursuit of new ideas
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="flex items-center justify-center h-5 w-5 bg-blue-100 text-blue-800 rounded-full mr-3 mt-0.5">
-                    ✓
-                  </span>
-                  <span>
-                    <strong className="text-blue-700">Inclusion:</strong>{" "}
-                    Strength through diversity
-                  </span>
-                </li>
-              </ul>
-            </motion.div>
           </motion.div>
         </motion.div>
       </div>
+      <Footer />
     </>
   );
 };

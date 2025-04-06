@@ -29,33 +29,33 @@ const Navbar = () => {
       <div className="bg-blue-600 text-white p-2 flex flex-wrap justify-between items-start md:flex-row flex-col">
         <div className="flex items-center mb-2 md:mb-0">
           <img
-            className="h-6 sm:h-8 mr-2"
-            src="src/assets/calllogo.png"
+            className="h-6 sm:h-8 mr-"
+            src="public/calllogo.png"
             alt="Phone"
           />
           <span>+977-9817605215</span>
         </div>
-        <div className="flex items-center mb-2 md:mb-0">
+        <div className="flex items-center mb-2 md:mb-0 ml-1.5">
           <Link to="mailto:panchadhura99@gmail.com">
             <img
               className="h-4 sm:h-5 mr-2"
-              src="src/assets/emaillogo.png"
+              src="public/emaillogo.png"
               alt="Email"
             />
           </Link>
           <span>
             <Link
-              className="text-white no-underline"
+              className="text-white no-underline "
               to="mailto:Panchadhura99@gmail.com"
             >
               Panchadhura@gmail.com
             </Link>
           </span>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center ml-1.5">
           <img
             className="h-4 sm:h-6 mr-2"
-            src="src/assets/locationlogo.png"
+            src="public/locationlogo.png"
             alt="Location"
           />
           <span>Bardibas, Mahottari</span>
@@ -64,7 +64,7 @@ const Navbar = () => {
 
       {/* Navbar */}
       <div className="flex justify-between items-center p-4 bg-white border-b border-gray-300 relative">
-        <img className="h-16" src="src/assets/Schoollogo.png" alt="Logo" />
+        <img className="h-16" src="public/Schoollogo.png" alt="Logo" />
 
         {/* Hamburger Menu Button */}
         <button
@@ -186,7 +186,7 @@ const Navbar = () => {
             >
               <Link
                 className="block px-4 py-2 text-black hover:bg-gray-100 transition"
-                to="/gallery/photos"
+                to="/gallery/first-gallery"
               >
                 Photos
               </Link>
@@ -204,6 +204,12 @@ const Navbar = () => {
             to="/contactus"
           >
             Contact Us
+          </Link>
+          <Link
+            className="block px-4 py-2 text-black hover:bg-gray-200 transition"
+            to="/callender"
+          >
+            <img src="src/assets/callender.png" className="h-[25px]" alt="" />
           </Link>
         </div>
       </div>

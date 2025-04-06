@@ -71,7 +71,7 @@ const AboutUs = () => {
               <div className="absolute -inset-4 bg-blue-100 rounded-2xl rotate-3 opacity-70"></div>
               <motion.img
                 whileHover={{ scale: 1.02 }}
-                src="src/assets/mainimage.jpg"
+                src="public/mainimage.jpg"
                 alt="Panchadhura Secondary School"
                 className="relative rounded-xl shadow-2xl w-full h-auto object-cover z-10"
               />
@@ -88,16 +88,15 @@ const AboutUs = () => {
                 Our <span className="text-blue-600">Story</span>
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Established in 2029 BS, Panchadhura Secondary School stands as a
-                beacon of educational excellence in Bardibas Cheru-5, Mahottari.
-                For over five decades, we've been nurturing young minds with a
-                perfect blend of academic rigor and cultural values.
+                Panchadhura Secondary School was started in 2029 BS in Bardibas
+                Cheru-5, Mahottari. For more than 50 years, we have been helping
+                students grow with strong education and good cultural values.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Our dedicated faculty employs innovative teaching methodologies
-                while our vibrant extracurricular programs in sports, arts, and
-                cultural activities provide students with platforms to discover
-                and hone their unique talents.
+                Our hardworking teachers use new and creative ways to teach. We
+                also have fun activities like sports, arts, and cultural
+                programs where students can find and improve their special
+                talents.
               </p>
 
               {/* Animated Stats */}
@@ -152,11 +151,10 @@ const AboutUs = () => {
                     <FaBook className="mr-3" /> Our Vision
                   </h3>
                   <p className="text-blue-100">
-                    To cultivate a generation of critical thinkers and
-                    compassionate leaders who honor their heritage while
-                    embracing global perspectives. We envision a learning
-                    ecosystem that transforms students into catalysts for
-                    positive community change.
+                    Our goal is to raise thoughtful and kind leaders who respect
+                    their culture and understand the world. We want to create a
+                    learning environment that helps students bring positive
+                    changes to their community.
                   </p>
                 </div>
               </motion.div>
@@ -173,11 +171,10 @@ const AboutUs = () => {
                     <FaTrophy className="mr-3" /> Our Mission
                   </h3>
                   <p className="text-blue-100">
-                    To provide transformative education through innovative
-                    pedagogy, state-of-the-art facilities, and holistic
-                    development programs. We commit to fostering academic
-                    excellence, ethical leadership, and social responsibility in
-                    every student.
+                    We aim to give students a powerful education using modern
+                    teaching methods, great facilities, and programs that
+                    support all-round growth. We promise to help every student
+                    become smart, responsible, and a good leader.
                   </p>
                 </div>
               </motion.div>
@@ -193,7 +190,10 @@ const AboutUs = () => {
             className="bg-white rounded-2xl shadow-xl p-8 mb-24"
           >
             <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-              Our <span className="text-blue-600">Educational Philosophy</span>
+              Our{" "}
+              <span className="text-blue-600">
+                Way of Teaching and Learning
+              </span>
             </h2>
 
             <div className="relative">
@@ -206,20 +206,21 @@ const AboutUs = () => {
                   {
                     title: "Academic Excellence",
                     description:
-                      "Rigorous curriculum with modern teaching methods",
+                      "Well-planned courses taught using modern methods",
                     icon: "📚",
                     side: "left",
                   },
                   {
                     title: "Character Building",
-                    description: "Emphasis on moral values and ethical conduct",
+                    description:
+                      "Focus on good behavior and strong moral values",
                     icon: "💖",
                     side: "right",
                   },
                   {
                     title: "Holistic Development",
                     description:
-                      "Sports, arts, and cultural programs for all-round growth",
+                      "Activities in sports, arts, and culture for overall growth",
                     icon: "🎨",
                     side: "left",
                   },

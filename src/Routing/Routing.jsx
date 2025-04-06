@@ -7,6 +7,7 @@ import Callender from "../Pages/Callender";
 import { ContactUs } from "../Pages/ContactUs";
 import School2 from "../Components/Home_/About school/School_2";
 import PrincipleMessage from "../Components/AboutUS/PrincipleMessage";
+import First_Gallery from "../Components/Gallery/First_Gallery";
 
 const AppRoutes = () => {
   return (
@@ -20,6 +21,7 @@ const AppRoutes = () => {
       <Route path="/school2" element={<School2 />} />
       <Route path="/principal-message" element={<PrincipleMessage />} />
       <Route path="/contactus" element={<ContactUs />} />
+      <Route path="/gallery/firstgallery" element={<First_Gallery />} />
     </Routes>
   );
 };

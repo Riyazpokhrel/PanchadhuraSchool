@@ -36,10 +36,10 @@ const Footer = () => {
 
           <div className="space-x-2 mt-3 flex justify-center  md:justify-center">
             <div className="">
-              <h3 className="text-base font-bold mb-2">Useful Links</h3>
+              <h3 className="text-base font-bold mb-2 ">Useful Links</h3>
               <Link to="https://www.facebook.com/share/15RWRFaJXN/">
                 <img
-                  className="h-8 ml-6"
+                  className="h-8 ml-10"
                   src="src/assets/Facebok.png"
                   alt="Facebook"
                 />
@@ -54,7 +54,7 @@ const Footer = () => {
               <Link to="">
                 <img
                   className="h-8 m-2 ml-6"
-                  src="src/assets/2021_Facebook_icon.svg.png"
+                  src="public/2021_Facebook_icon.svg.png"
                   alt="YouTube"
                 />
               </Link>

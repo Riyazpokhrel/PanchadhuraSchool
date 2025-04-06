@@ -76,7 +76,7 @@ export const ContactUs = () => {
         </div>
         <div className="md:w-1/2 flex items-center justify-center">
           <img
-            src="src/assets/Message img .png"
+            src="public/Message img .png"
             alt="Illustration"
             className="w-full max-w-sm"
           />
