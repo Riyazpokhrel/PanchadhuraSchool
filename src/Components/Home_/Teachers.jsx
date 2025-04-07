@@ -7,7 +7,7 @@ const Teachers = () => {
       id: 1,
       name: "Ramesh Pokhrel",
       subject: "Principle",
-      img: "public/Ramesh pokhrel.jpg",
+      img: "dist/Ramesh pokhrel.jpg",
       contact: "9817605215",
       Link: "https://www.facebook.com/share/19ybwawi7s/",
     },
@@ -15,7 +15,7 @@ const Teachers = () => {
       id: 2,
       name: "Balkumar Shrestha",
       subject: "Account",
-      img: "public/Balkumar shrestha.jpg",
+      img: "dist/Balkumar shrestha.jpg",
       contact: "9817605215",
       Link: "https://www.facebook.com/share/19xcjxJ43R/",
     },
@@ -23,43 +23,49 @@ const Teachers = () => {
       id: 3,
       name: "Seshnath das",
       subject: "Math",
-      img: "public/seshnath das.jpg",
+      img: "dist/seshnath das.jpg",
       contact: "9817605215",
+      Link: "https://www.facebook.com/share/19xcjxJ43R/",
     },
     {
       id: 4,
       name: "Srijana Sigden",
       subject: "English",
-      img: "public/srijana sigden.jpg",
+      img: "dist/srijana sigden.jpg",
       contact: "9817605215",
+      Link: "https://www.facebook.com/share/19xcjxJ43R/",
     },
     {
       id: 5,
       name: "Sharmila Dahal",
       subject: "Nepali",
-      img: "public/sarmila dahal.jpg",
+      img: "dist/sarmila dahal.jpg",
       contact: "9817605215",
+      Link: "https://www.facebook.com/share/19xcjxJ43R/",
     },
     {
       id: 6,
       name: "Sharmila Dahal",
       subject: "Nepali",
-      img: "public/sarmila dahal.jpg",
+      img: "dist/sarmila dahal.jpg",
       contact: "9817605215",
+      Link: "https://www.facebook.com/share/19xcjxJ43R/",
     },
     {
       id: 7,
       name: "Sharmila Dahal",
       subject: "Nepali",
-      img: "public/sarmila dahal.jpg",
+      img: "dist/sarmila dahal.jpg",
       contact: "9817605215",
+      Link: "https://www.facebook.com/share/19xcjxJ43R/",
     },
     {
       id: 8,
       name: "Sharmila Dahal",
       subject: "Nepali",
-      img: "public/sarmila dahal.jpg",
+      img: "dist/sarmila dahal.jpg",
       contact: "9817605215",
+      Link: "https://www.facebook.com/share/19xcjxJ43R/",
     },
   ];
 
@@ -115,7 +121,7 @@ const Teachers = () => {
                   >
                     <img
                       className="h-[22px] sm:h-[20px] ml-4 transition-opacity hover:opacity-80"
-                      src="src/assets/Facebok.png"
+                      src="dist/Facebok.png"
                       alt="Facebook"
                     />
                   </Link>

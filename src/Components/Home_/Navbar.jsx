@@ -28,18 +28,14 @@ const Navbar = () => {
       {/* Top Bar */}
       <div className="bg-blue-600 text-white p-2 flex flex-wrap justify-between items-start md:flex-row flex-col">
         <div className="flex items-center mb-2 md:mb-0">
-          <img
-            className="h-6 sm:h-8 mr-"
-            src="public/calllogo.png"
-            alt="Phone"
-          />
+          <img className="h-6 sm:h-8 mr-" src="dist/calllogo.png" alt="Phone" />
           <span>+977-9817605215</span>
         </div>
         <div className="flex items-center mb-2 md:mb-0 ml-1.5">
           <Link to="mailto:panchadhura99@gmail.com">
             <img
               className="h-4 sm:h-5 mr-2"
-              src="public/emaillogo.png"
+              src="dist/emaillogo.png"
               alt="Email"
             />
           </Link>
@@ -55,7 +51,7 @@ const Navbar = () => {
         <div className="flex items-center ml-1.5">
           <img
             className="h-4 sm:h-6 mr-2"
-            src="public/locationlogo.png"
+            src="dist/locationlogo.png"
             alt="Location"
           />
           <span>Bardibas, Mahottari</span>
@@ -64,7 +60,7 @@ const Navbar = () => {
 
       {/* Navbar */}
       <div className="flex justify-between items-center p-4 bg-white border-b border-gray-300 relative">
-        <img className="h-16" src="public/Schoollogo.png" alt="Logo" />
+        <img className="h-16" src="dist/Schoollogo.png" alt="Logo" />
 
         {/* Hamburger Menu Button */}
         <button

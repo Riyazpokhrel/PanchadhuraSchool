@@ -80,7 +80,7 @@ const PrincipleMessage = () => {
                   animate={{ scale: 1 }}
                   transition={{ duration: 0.5 }}
                   className="h-80 w-full object-cover md:w-80 md:h-full"
-                  src="public/Rameshpokhrel.jpg"
+                  src="dist/Rameshpokhrel.jpg"
                   alt="Principal"
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent">

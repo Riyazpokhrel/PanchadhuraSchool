@@ -8,31 +8,31 @@ const TestimonialData = [
     id: 1,
     name: "Riyaz",
     text: "This school has changed my life! The teachers are so supportive and the environment is perfect for learning.",
-    img: "public/myimage.jpg", // Ensure the correct image path
+    img: "dist/myimage.jpg", // Ensure the correct image path
   },
   {
     id: 2,
     name: "Riyaz pokhrel",
     text: "The curriculum is well-rounded and the extra-curricular activities are amazing. I've grown so much here.",
-    img: "public/myimage.jpg",
+    img: "dist/myimage.jpg",
   },
   {
     id: 3,
     name: "Riyaz pokhrel",
     text: "The facilities are top-notch and the staff is always there to help. I feel so prepared for my future!",
-    img: "public/myimage.jpg",
+    img: "dist/myimage.jpg",
   },
   {
     id: 4,
     name: "Riyaz pokhrel",
     text: "I love the diversity and the sense of community at this school. It's a great place to grow and learn.",
-    img: "public/myimage.jpg",
+    img: "dist/myimage.jpg",
   },
   {
     id: 5,
     name: "Riyaz pokhrel",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "public/myimage.jpg",
+    img: "dist/myimage.jpg",
   },
 ];
 

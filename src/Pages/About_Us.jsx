@@ -71,7 +71,7 @@ const AboutUs = () => {
               <div className="absolute -inset-4 bg-blue-100 rounded-2xl rotate-3 opacity-70"></div>
               <motion.img
                 whileHover={{ scale: 1.02 }}
-                src="public/mainimage.jpg"
+                src="dist/mainimage.jpg"
                 alt="Panchadhura Secondary School"
                 className="relative rounded-xl shadow-2xl w-full h-auto object-cover z-10"
               />

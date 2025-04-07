@@ -7,7 +7,7 @@ const School = () => {
       <div className="w-full md:w-1/2 p-2 md:p-4 flex justify-center">
         <img
           loading="lazy"
-          src={"public/gate.jpg"}
+          src={"dist/gate.jpg"}
           alt="Panchadhura school"
           className="rounded-md shadow-lg w-full h-64 md:h-[80vh] object-cover 
                     transition-all duration-500 ease-in-out 

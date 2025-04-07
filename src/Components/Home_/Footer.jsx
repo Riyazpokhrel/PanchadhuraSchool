@@ -40,7 +40,7 @@ const Footer = () => {
               <Link to="https://www.facebook.com/share/15RWRFaJXN/">
                 <img
                   className="h-8 ml-10"
-                  src="src/assets/Facebok.png"
+                  src="public/facebook.png"
                   alt="Facebook"
                 />
               </Link>
@@ -54,7 +54,7 @@ const Footer = () => {
               <Link to="">
                 <img
                   className="h-8 m-2 ml-6"
-                  src="public/2021_Facebook_icon.svg.png"
+                  src="public/2021_Facebook_icon.svg"
                   alt="YouTube"
                 />
               </Link>
